@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=Poppins:wght@200&family=Roboto:ital,wght@0,400;1,100&display=swap');
+
+body {
+    margin: 0;
+    font-family: Roboto;
+    
+}
+
+img {
+    width: 200px;
+    height: 200px;
+  }
+
+.p1-logo {
+    height: 100%;
+    width: 100px;
+}
+.group-pic {
+    height: 100%;
+    width: 350px;
+}
+
+
+
+.header {
+    background: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6px 180px;
+
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.Welcome {
+    background-color: #1f2937;
+    display: flex;
+    align-content: center;
+    gap: 100px;
+    padding: 70px 180px;
+}
+.meet {
+    font-weight: 800;
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.team-intro {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.p1ece-button {
+    color: white;
+    background-color: #3882F6;
+    border-style: hidden;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+}
+
+.divein {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 38px;
+}
+
+.item {
+    max-width: 200px;
+    text-align: center;
+}
+
+.text  {
+    color: #8e9094;
+    line-height: 30px;
+}
+
+
+
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color:  #1f2937;
+
+}
+
+.speaker-tag {
+    text-align: right;
+}
+
+
+
+.ending {
+    background-color: white;
+}
+
